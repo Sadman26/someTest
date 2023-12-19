@@ -7,3 +7,7 @@ var submit = document.getElementById("submit-btn");
 submit.onclick = function () {
     alert("Hello " + iname);
 };
+function getsum() {
+    console.log("hello");
+}
+getsum();
