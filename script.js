@@ -1,13 +1,10 @@
-//get name from input when i click on submit it will show alert say hello name
-
-var iname = document.getElementById("name").value;
-var submit = document.getElementById("submit-btn");
-//added a comment
-
-submit.onclick = function () {
-    alert("Hello " + iname);
-};
-function getsum() {
-    console.log("hello");
+let x = true;
+let stk = [];
+for (let i = 0; i < 10; i++) {
+    if (i % 2 == 0) {
+        x = false
+        stk.push(x);
+    }
+    stk.push(x)
 }
-getsum();
+console.log(stk);
