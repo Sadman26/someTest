@@ -1,10 +1,4 @@
-let x = true;
-let stk = [];
-for (let i = 0; i < 10; i++) {
-    if (i % 2 == 0) {
-        x = false
-        stk.push(x);
-    }
-    stk.push(x)
+var i;
+for (i = 0; i < 20; i++) {
+    console.log("Hello World")
 }
-console.log(stk);
