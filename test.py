@@ -1,3 +1,3 @@
 import pymongo
-app=pymongo.MongoClient(localhost,)
+app=pymongo.MongoClient(localhost)
 app.run()
